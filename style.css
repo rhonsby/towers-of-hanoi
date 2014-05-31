@@ -1,0 +1,50 @@
+h1 {
+  text-align: center;
+}
+
+.tower {
+  width: 130px;
+  height: 100px;
+  float: left;
+  margin: 100px 20px;
+/*  position: relative;*/
+}
+
+.border {
+  border: 3px solid black;
+  width: 125px;
+/*  position: absolute;*/
+  bottom: 5px;
+}
+
+#towers:after {
+  content:'';
+  clear:both;
+  display:block;
+}
+
+#towers {
+  border: 1px solid red;
+  width: 510px;
+  margin: 0px auto;
+}
+
+.disc {
+  outline: 2px solid red;
+  height: 15px;
+  margin: 0 auto;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+#disc1{
+  width: 30%;
+}
+
+#disc2{
+  width: 50%;
+}
+
+#disc3{
+  width: 80%;
+}

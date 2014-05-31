@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+
+
+<head>
+  <script src="underscore.js"></script>
+  <script src="jquery.js"></script>
+  <script src="hanoi.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+  <h1>Towers of Hanoi</h1>
+
+  <div id="towers">
+    <div class='tower' name="0" id="tower1">
+      <div class='disc' name="1" id="disc1"></div>
+      <div class='disc' name="2" id="disc2"></div>
+      <div class='disc' name="3" id="disc3"></div>
+      <div class='border'></div>
+    </div>
+
+    <div class='tower' name="1" id="tower2">
+      <div class='border'></div>
+    </div>
+    <div class='tower' name="2" id="tower3">
+      <div class='border'></div>
+    </div>
+  </div>
+
+  <script>
+    var game = new Hanoi.Game();
+    game.setUpHandlers();
+  </script>
+</body>
+</html>
